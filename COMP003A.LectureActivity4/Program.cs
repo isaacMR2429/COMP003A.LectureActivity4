@@ -48,6 +48,15 @@
                 }
                 Console.WriteLine(number);
             }
+            /*
+             * Section E: Loop Tracing and Reflection
+             * 
+             * The loop the was easiest for me to understand is "for" loop,
+             * because you're setting up the condition and letting it know from what numbers it needs to loop
+             * 
+             * 
+             * 
+             */ 
         }
     }
 }
