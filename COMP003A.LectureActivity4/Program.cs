@@ -40,11 +40,11 @@
                 number++;
                 if (number == 4)
                 {
-                    continue;
+                    continue; // Continue will skip number 4 from being shown
                 }
                 if (number == 6)
                 {
-                    break;
+                    break; //Break will stop the loop when the number gets to 6
                 }
                 Console.WriteLine(number);
             }
