@@ -12,6 +12,7 @@
                 Console.WriteLine($"Task {tasknumber} completed");
                 tasknumber++;
             }
+
             /*
              * This "do-while" Loop repeats because the code inside the "do" block
              * runs before the condition gets checked
@@ -25,7 +26,14 @@
             }
             while (attempt <= 3);
 
+            // This "for" loop works here because the number of steps is known
             Console.WriteLine("\nSection C: for - Loop Practice");
+            for (int i = 1; i <= 4; i++)
+            {
+                Console.WriteLine($"Step {i}");
+            }
+
+
         }
     }
 }
