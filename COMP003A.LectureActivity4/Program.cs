@@ -12,7 +12,10 @@
                 Console.WriteLine($"Task {tasknumber} completed");
                 tasknumber++;
             }
-
+            /*
+             * This "do-while" Loop repeats because the code inside the "do" block
+             * runs before the condition gets checked
+             */ 
             Console.WriteLine("\nSection B: do-while - Loop Practice");
             int attempt = 1;
             do
@@ -21,6 +24,8 @@
                 attempt++;
             }
             while (attempt <= 3);
+
+            Console.WriteLine("\nSection C: for - Loop Practice");
         }
     }
 }
