@@ -51,11 +51,14 @@
             /*
              * Section E: Loop Tracing and Reflection
              * 
-             * The loop the was easiest for me to understand is "for" loop,
-             * because you're setting up the condition and letting it know from what numbers it needs to loop
+             * 1. The loop the was easiest for me to understand is (for) loop,
+             * because you're setting up the condition and letting it know from what numbers it needs to loop.
              * 
+             * 2. The loop that required the most careful tracing would have to be (break and continue) loop,
+             * because the flow can change depending on the conditions you set.
              * 
-             * 
+             * 3. The comments helped me understand my loops by helping me track the loops
+             * and reminding myseld on each part like what they're doing and why.
              */ 
         }
     }
