@@ -33,7 +33,21 @@
                 Console.WriteLine($"Step {i}");
             }
 
-
+            Console.WriteLine("\nSection D: Loop Control (break and continue)");
+            int number = 0;
+            while (number <= 6)
+            {
+                number++;
+                if (number == 4)
+                {
+                    continue;
+                }
+                if (number == 6)
+                {
+                    break;
+                }
+                Console.WriteLine(number);
+            }
         }
     }
 }
