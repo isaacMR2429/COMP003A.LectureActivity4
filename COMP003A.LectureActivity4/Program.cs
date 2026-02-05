@@ -12,7 +12,15 @@
                 Console.WriteLine($"Task {tasknumber} completed");
                 tasknumber++;
             }
-            Console.WriteLine();
+
+            Console.WriteLine("\nSection B: do-while - Loop Practice");
+            int attempt = 1;
+            do
+            {
+                Console.WriteLine($"Attempt {attempt}");
+                attempt++;
+            }
+            while (attempt <= 3);
         }
     }
 }
