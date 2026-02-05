@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             // This "while" loop tracks tasks 1 through 5.
+            Console.WriteLine("Section A: while - Loop Practice ");
             int tasknumber = 1;
             while (tasknumber <= 5)
             {
